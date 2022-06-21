@@ -1,0 +1,62 @@
+@font-face {
+    font-family: light;
+    src: url(../FUENTES/Montserrat-Black.ttf);
+    font-weight: 200;
+}
+
+@font-face {
+    font-family: titulo;
+    src: url(../FUENTES/Photoshoot.ttf);
+    font-weight: 200;
+}
+
+header {
+font-size: 50%;
+background-image: url(../FOTOS/PORTFOLIO\ ENTREGA_Mesa\ de\ trabajo\ 1-01_Mesa\ de\ trabajo\ 1-01.jpg);
+background-repeat: no-repeat;
+background-size: 100%;
+width: 100vw;
+height: 100vh;
+display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+}
+
+/* BUENAS, ACA INTENTE USAR EL NAV PARA TENER EL HIPERVÍNCULO EN LOS BOTONES HOME ABOUT CONTACT Y PORTFOLIO. LA INTENCIÓN ESTUVO :)
+nav {
+width: 50%;
+font-family: light;
+color: #f3f4f6;
+}
+*/ 
+
+
+a {
+text-decoration: none;
+}
+
+p {
+    font-family: titulo;
+    font-weight: 300;
+    font-size: 3.8em;
+    color: #1ee3cf;
+    margin: 0em 2.8em;
+}
+
+
+h1 {
+    font-family: light;
+    font-weight: 900;
+    font-size: 12em;
+    margin: 0em 0.8em;
+    color: #f3f4f6;
+}
+
+
+@media (max-width: 768px){
+
+body { font-size: 60%;}
+
+
+}
